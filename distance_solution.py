@@ -20,7 +20,7 @@ def distance_pure_python(data):
     
     return dist_mat
 
-# for part (b)
+
 def distance_numpy(data):
     """
     Compute distance matrix using only numpy functions without loops.
