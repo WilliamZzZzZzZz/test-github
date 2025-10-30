@@ -18,7 +18,7 @@ def parallel_histogram(data, low, high, n_bins):
     rank = comm.Get_rank()
     size = comm.Get_size()
 
-    # Scatter data to all processes
+    
     if rank == 0:
         # Split data into chunks for each process
         chunk_size = len(data) // size
